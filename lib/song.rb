@@ -47,7 +47,7 @@ class Song
     seperate = file_name.split("-")
     artist_name = seperate[0]
     second_seperation = seperate[1].split(".")
-    song_name = second_seperation[0] 
+    song_name = second_seperation[0].strip 
     the_song_data = self.create_by_name(song_name) 
     the_song_data.artist_name = artist_name.strip
     p the_song_data
