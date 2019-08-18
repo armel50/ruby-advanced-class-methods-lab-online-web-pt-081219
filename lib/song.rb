@@ -50,7 +50,7 @@ class Song
     song_name = second_seperation[0] 
     the_song_data = self.create_by_name(song_name) 
     the_song_data.artist_name = artist_name
-    
+    p the_song_data
     # p song_name
     # p artist_name
     
